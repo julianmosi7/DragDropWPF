@@ -1,0 +1,49 @@
+﻿<Window x:Class="DragDropWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DragDropWPF"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Drag'n'Drop" Height="600" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <ListBox Name="lstStrings" Grid.Row="0" Grid.Column="0" Margin="5" 
+            PreviewMouseLeftButtonDown="lstStrings_PreviewMouseLeftButtonDown" />
+        <ListBox Name="lstPersons" Grid.Row="0" Grid.Column="1" Margin="5" >
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <EventSetter 
+                        Event="PreviewMouseLeftButtonDown" 
+                        Handler="ListBoxItem_PreviewMouseLeftButtonDown" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+        <ListBox Name="lstFiles" Grid.Row="1" Grid.Column="0" Margin="5" />
+        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical">
+            <Label Name="lblDropStrings" Content="Drop strings here" Margin="5"/>
+            <Label Name="label1" Content="Drop Persons to textbox below" Margin="5"/>
+            <TextBox Name="txtDrop" Text="Drop anything here"  Margin="5" />
+            <Label Name="lblSource"  Content="Drag from here" Margin="5" 
+                   MouseDown="lblSource_MouseDown"/>
+            <Label Name="lblDropPersons" Content="Drop persons here" Margin="5" />
+            <Label Name="lblProduct" Content="Drag Product from here" Margin="5"  />
+            <CheckBox Name="chkProxy" Content="Enable Proxy" IsChecked="true"/>
+            <CheckBox Name="chkInclude" Content="Include Category" IsChecked="true"/>
+        </StackPanel>
+
+        <TreeView Name="trvItems" Grid.Row="1" Grid.Column="1" />
+        <DataGrid Name="grdPersons" Grid.Row="1" Grid.Column="2" />
+        <Label Name="lblCheck" Content="Check Drag Type here..." Grid.Row="2" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>

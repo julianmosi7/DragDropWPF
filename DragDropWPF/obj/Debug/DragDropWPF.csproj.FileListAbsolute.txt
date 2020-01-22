@@ -1,0 +1,14 @@
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\bin\Debug\DragDropWPF.exe.config
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\bin\Debug\DragDropWPF.exe
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\bin\Debug\DragDropWPF.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\MainWindow.g.cs
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\App.g.cs
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF_MarkupCompile.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF_MarkupCompile.lref
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\MainWindow.baml
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF.g.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF.Properties.Resources.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF.csproj.GenerateResource.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF.exe
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project17\DragDropWPF\DragDropWPF\obj\Debug\DragDropWPF.pdb
